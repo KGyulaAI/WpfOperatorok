@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
 
 namespace WpfOperatorok
 {
@@ -23,6 +24,7 @@ namespace WpfOperatorok
         public string SzovegesOperator { get => szovegesOperator; }
         public int MasodikOperandus { get => masodikOperandus; }
 
+        //6. feladat
         public static string Szamitas(int elsoOperandus, string szovegesOperator, int masodikOperandus)
         {
             try
